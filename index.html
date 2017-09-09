@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta chaset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles/principal.css">
+
+	<title>Restaurantes de Campinas</title>
+</head>
+
+<body onload="efeito('principal')">
+	<script type="text/javascript" src="scripts/principal.js"></script>
+	<script type="text/javascript"> efeito('dadospessoais');</script>
+
+	<div class="centralizar">
+		<nav class="menu">
+			<ul>
+				<li><a href="#" onclick="javascript: efeito('principal');">Página Principal</a></li>
+				<li><a href="#" onclick="javascript: efeito('fale_conosco');">Fale Conosco</a></li>
+				<li><a href="#" onclick="javascript: efeito('projeto_autores');">Projeto e Autores</a></li>				
+			</ul>
+		</nav>
+	</div>
+
+	<div id="principal" class = "centralizar">
+		<h1>Restaurantes de Campinas</h1>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7350.406391508024!2d-47.06388209406544!3d-22.905874949117536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurantes+centro+campinas!5e0!3m2!1spt-BR!2sbr!4v1504897272636" width="500" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+
+		<div id="projeto_autores" class = "centralizar">
+			<h1>Projeto e Autores</h1>
+			<p>O projeto consiste em um trabalho da disciplina de Desenvolvimento WEB
+			<br>do curso "Análise e Desenvolvimento de Sistemas (IFSP - HTO)", em que
+			<br>seu objetivo é criar uma página que mostre alguns restaurantes de Campinas-SP,
+			<br>informações sobre os mesmos e uma página para o contato de usuários com o
+			<br>responsável da página. 
+
+			<br><br>Criado por: Felipe Mendes - ADS Matutino (2017 2º SEM)</p>
+		</div>
+
+
+	<div id="fale_conosco" class = "centralizar">
+		<h1>Contato</h1>
+		<form>
+			<p>Nome:<input type="text" name="feedback" required></p>
+
+			<p>E-mail:<input type="text" name="feedback" required></p>
+
+			<p>Comentário:</p>
+			<textarea rows="3" cols="60" placeholder="Digite seu texto aqui" required></textarea>
+
+			<br><input type="submit" value="Enviar">
+
+		</form>
+	</div>
+	
+
+	<div class="centralizar">
+		<footer class="rodape">
+			<nav class="menu">
+				<h5> Desenvolvido por Felipe Mendes - 2017</h5>
+			<nav/>
+		</footer>
+	</div>
+	
+
+</body>
+</html>

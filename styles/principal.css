@@ -1,0 +1,47 @@
+.centralizar{
+	text-align: center;
+}
+
+.menu {
+	background-color: rgba(255, 255, 255, 0.1);
+	background-size: border-width: 150%;
+}
+.menu ul li {
+	display: inline;
+    padding: 2px 10px;
+    display: inline-block;
+    color: white;
+  	background: rgba(255, 255, 255, 0.1);
+}
+
+.fundotransparente {
+	background: rgba(200, 200, 200, 0.1);
+}
+
+.rodape{
+	position:absolute;
+	bottom:0;
+    width:100%;
+}
+
+html{
+	background: url(../images/fundo.jpg) center center no-repeat fixed; 
+    background-size: cover;
+}
+
+p{
+	color: #FFF5EE;
+}
+
+h5{
+	color: #FFF5EE;
+}
+
+h1{
+	color: #EEDFCC;
+}
+
+a{
+	 text-decoration: none;
+	 color: #FFF5EE;
+}
